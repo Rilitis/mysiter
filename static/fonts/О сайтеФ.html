@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>О сайте</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #ECB176;
+                padding-top: 11%;
+                background-size: 100%; 
+                background-position: center top 100%;     
+                background-repeat: no-repeat;
+                height: auto;
+                width: auto;
+                text-align: center;
+                position: relative;
+                background-attachment: fixed;
+            }
+
+            .text1, .text2, .text3, .text4, .text5 {
+                max-width: 55%;
+                height: auto;  
+                background: rgba(0, 0, 0, 0);
+                position: absolute;
+                color: white;
+                font-family: 'Segoe UI';
+                word-wrap: break-word;
+                margin: 0;
+                padding: 0;
+            }
+
+            .text1 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 3vw;
+                top: 0;
+                left: 28vw;
+            }
+
+            .text2 {
+                font-size: 2.2vw;
+                top: 9vw;
+                left: 6.4vw;
+            }
+
+            .text3 {
+                font-size: 2.4vw;
+                top: 7.7vw;
+                left: 46.6vw;
+            }
+
+            .text4 {
+                font-size: 2.1vw;
+                top: 19vw;
+                left: 46.6vw;
+            }
+
+            .text5 {
+                font-size: 1.7vw;
+                top: 9vw;
+                left: 71vw;
+            }
+
+            .otpr, .otpr2 {
+                position: absolute;
+            }
+
+            .otpr {
+                top: 17vw;
+                left: 71vw;
+            }
+
+            .otpr2 {
+                top: 13.5vw;
+                left: 71vw;
+            }
+
+            .button1, .button2, .button3, .button4 {
+                max-width: 30%;
+                height: auto;
+                color: rgb(172, 108, 231);
+                background-color: transparent;
+                border: 0;
+                text-decoration: none;
+                font-size: 1.8vw;
+                word-wrap: break-word;                    
+                left: 6vw;
+                position: absolute;
+                z-index: 1;
+                cursor: pointer;
+            }
+
+            .button1 {
+                top: 15vw;
+            }
+
+            .button2 {
+                top: 18vw;
+            }
+
+            .button3 {
+                top: 21vw;
+            }
+
+            .button4 {
+                top: 24vw;
+            }
+
+            .otzv {
+                max-width: 22%;
+                border-width: 0.1em;    
+                border-color: rgb(135, 134, 133);
+                background: white;
+                border-radius: 0.5em;
+                border-style: solid;
+                color: black;
+                font-size: 1.9vw;
+                position: absolute;
+                word-wrap: break-word;
+                line-height: 0.9;
+                box-sizing: content-box;
+                height: 47%;
+                top: 13.4vw;
+                left: 46.3vw;
+                z-index: 3;
+            }
+
+            .gif {
+                position: absolute;
+                top: 230%;
+                left: 46.5%;
+                width: 22%;
+            }
+
+            input[type="date"] {
+                font-size: 1vw;
+                padding: 0.5vw;
+                border-radius: 0.5em;
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="otpr"><input type="submit" value="Отправить"></div>   
+        <div class="otpr2"><input type="date"></div>
+        <img src="../images/add.gif" alt="gif" class="gif">
+        <a href="https://www.culture.ru/s/gid-po-serebryanomu-veku/" target="_blank">
+            <input type="button" value="Гид по серебряному веку" class="button1">
+        </a>
+        <a href="http://poetrysilver.ru/techenia" target="_blank">
+            <input type="button" value="Течения серебряного века" class="button2">
+        </a>
+        <a href="https://www.culture.ru/literature/poems/tag-serebryanyi-vek" target="_blank">
+            <input type="button" value="Стихи серебряного века" class="button3">
+        </a>
+        <a href="https://slova.org.ru/serebryanyj-vek/" target="_blank">
+            <input type="button" value="Серебряный век русской поэзии" class="button4">
+        </a>
+        <input type="text" class="otzv">
+        <div class="text5"><p>Дата рождения</p></div>
+        <div class="text1"><p>Есть вопросы или нашли ошибку?</p></div>
+        <div class="text2"><p>Источники:</p></div>
+        <div class="text3"><p>Оставьте отзыв!</p></div>
+        <div class="text4"><p>Читать не вредно!</p></div>
+        <div style="height:auto"></div>
+    </body> 
+</html>

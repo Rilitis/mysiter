@@ -1,0 +1,68 @@
+<html>
+  <style>
+    body{ 
+    width: 100vw;    /*  Изменение головы */
+    height: 110vh;
+    background-color: #6F4E37; 
+    position: fixed;  
+    .button {  /*  Главная кнопка - лого */
+        text-align: left;
+        height: 50%;
+        width: 30%;
+        top: 15%;
+        background-color: transparent;
+        font-family: 'Times New Roman', Times, serif;
+        border: none;
+        color: #FED8B1;
+        font-weight: bolder;
+        font-size: 2vw;
+        position: absolute;
+        transition-duration:0.4s;
+        cursor: pointer;
+    };
+    .button:hover{
+        color: rgb(200, 70, 23); /*  Изменение текста при наведении */
+    };  
+    .button1, .button2, .button3, .button4{ /*  кнопки переключения на другие страницы сайта */
+        width: 13%;
+        height: 60%;
+        top: 9.5%;
+        background: transparent;
+        font-family: 'Playfair Display';
+        border-width: 0.1vw;
+        border-color: #FED8B1;
+        border-radius: 0.7vw;
+        color: #FED8B1;   
+        font-size: 1.52vw;
+        position: absolute;
+        transition-duration: 0.4s; 
+    };
+    .button1:hover, .button2:hover, .button3:hover, .button4:hover{
+        background-color: rgb(200, 70, 23);
+    };
+    .button1{
+        left: 30%;
+    };
+    .button2{
+        left: 45%;
+    };
+    .button3{   
+        left: 60%;
+    };
+    .button4{   
+        left: 75%;
+    };
+    .imghead{
+        width: 4.5%;
+    }
+}
+   </style>
+    <body>
+        <img src="..\images/logo.jpg" alt="logo" class="imghead">
+        <a href="..\..\index.html"target="_top"> <input type="button" value="Поэты Серебряного Века" class="button"> </a>
+        <a href="..\..\История эпохи.html"target="_top"> <input type="button" value="История эпохи" class="button1"> </a>
+        <a href="..\..\О поэтах.html"target="_top"> <input type="button" value="О поэтах" class="button2"> </a>
+        <a href="..\..\Произведения.html"target="_top"> <input type="button" value="Произведения" class="button3"> </a>
+        <a href="..\..\О сайте.html"target="_top"> <input type="button" value="О сайте" class="button4"> </a>
+    </body>
+</html>
